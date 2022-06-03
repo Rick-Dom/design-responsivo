@@ -45,6 +45,20 @@
         </nav>
     </header>
 
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+
+        //selecionamos o que vai mudar e que evento vamos utklizar, no caso o click
+        //quando clicar no btn-menu vamos selecionar o menu e dar um show
+        $(".btn-menu").click(function(){
+            $(".menu").show();
+        });
+
+        $(".btn-close").click(function(){
+            $(".menu").hide();
+        });
+    </script>
 </body>
 
 </html>
