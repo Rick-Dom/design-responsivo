@@ -26,6 +26,7 @@ img{
   max-width: 100%;
 }
 
+
 /*cabeçalho*/
 .cabecalho{
   width: 100%;
@@ -125,23 +126,20 @@ img{
 }
 
 .btn-cadastrar{
-  width: 100%;
-  font-size: 1.5em;
-  text-align: left;
-  cursor: pointer;
-  padding: 5%;
-  border-radius: 10px;
   background-color: #f5f5f5;
   color: #130400
 }
 
-.btn-sobre{
+.btn{
   width: 100%;
   font-size: 1.5em;
   text-align: left;
   cursor: pointer;
   padding: 5%;
   border-radius: 10px;
+}
+
+.btn-sobre{
   background-color: #130400;
   color: #f5f5f5;
   margin-top: 2%;
@@ -212,7 +210,7 @@ img{
 }
 
 .newsletter input{
-  width: 100%;
+  width: 89%;
   background-color: #130400;
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -256,4 +254,27 @@ img{
 .copyright{
   margin-top: 2%;
   color: rgba(255, 255, 255, 0.7);
+}
+
+/*MEDIA TYPES
+SCREEN
+para minitores ou dispositivos com telas colcridas e resolução adequada.
+PRINT
+Para impressoras. Muito usado para dar uma versão de impressão do site
+
+Eele serve para direcionar um bloco css para um determinado tipo de acesso
+*/
+
+/*media type e uma expressão*/
+@media screen and (min-width: 320px){
+  .title h2{
+    font-size: 2.5em;
+    color: red;
+    font-weight: 700;
+  }
+  
+  .title h3{
+    font-size: 1.5em;
+    color: blue;
+  }
 }
