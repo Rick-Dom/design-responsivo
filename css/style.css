@@ -266,15 +266,16 @@ Eele serve para direcionar um bloco css para um determinado tipo de acesso
 */
 
 /*media type e uma expressão*/
-@media screen and (min-width: 320px){
-  .title h2{
-    font-size: 2.5em;
-    color: red;
-    font-weight: 700;
+/*==========MOBILE FIRST===========*/
+/*SMART PHONES*/
+@media screen and (min-width: 480px){
+  .logo{
+    width: 214px;
+    background: url(../img/logo.png) center center/214px no-repeat;
   }
-  
-  .title h3{
-    font-size: 1.5em;
-    color: blue;
+
+  .btn{
+    font-size: 2em;
   }
+
 }
