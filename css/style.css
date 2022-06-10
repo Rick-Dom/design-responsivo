@@ -1,40 +1,40 @@
 /*========== RESET CSS ==========*/
-*{
-  box-sizing: borderbox; 
+* {
+  box-sizing: borderbox;
   margin: 0;
   font-size: 100%;
   font-weight: 300;
   outline: none;
   padding: 0;
   border: none;
-  font-family: 'Roboto', sans-serif; 
+  font-family: 'Roboto', sans-serif;
 }
 
-body{
+body {
   background-color: #f5f5f5;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-img{
+img {
   max-width: 100%;
 }
 
 
 /*cabeçalho*/
-.cabecalho{
+.cabecalho {
   width: 100%;
   float: left;
   padding: 3% 4%;
 }
 
-.logo{
+.logo {
   width: 56px;
   height: 56px;
   float: left;
@@ -42,29 +42,29 @@ img{
   font-size: 0;
 }
 
-.btn-menu{
+.btn-menu {
   width: 56px;
   height: 56px;
   float: right;
   text-align: center;
   color: #fff;
   cursor: pointer;
-  border-radius:56px;
+  border-radius: 56px;
   background: linear-gradient(to right, #ce2e3c, #da6709);
 }
 
 /*menu*/
-.menu{
+.menu {
   display: none;
   width: 100%;
   height: 100%;
   position: fixed;
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   top: 0;
   left: 0;
 }
 
-.btn-close{
+.btn-close {
   font-size: 1.5em;
   color: #fff;
   float: right;
@@ -72,13 +72,13 @@ img{
   margin: 2% 3% 0 0;
 }
 
-.menu ul{
+.menu ul {
   width: 100%;
   float: left;
   text-align: center;
 }
 
-.menu li{
+.menu li {
   padding: 1.5%;
 }
 
@@ -88,12 +88,12 @@ img{
   padding: 1.5% 3%;
 }
 
-.menu li a:hover{
+.menu li a:hover {
   border: 1px solid #da6709;
 }
 
 /*BANNER*/
-.banner{
+.banner {
   width: 100%;
   float: left;
   text-align: center;
@@ -101,36 +101,36 @@ img{
   background: url(../img/bg.jpg) no-repeat fixed;
 }
 
-.title{
+.title {
   width: 100%;
 }
 
-.title h2{
+.title h2 {
   font-size: 2.5em;
   color: #fff;
   font-weight: 700;
 }
 
-.title h3{
+.title h3 {
   font-size: 1.5em;
   color: #fff;
 }
 
-.buttons{
+.buttons {
   width: 100%;
-  margin-top: 2% ;
+  margin-top: 2%;
 }
 
-.buttons i{
+.buttons i {
   float: right;
 }
 
-.btn-cadastrar{
+.btn-cadastrar {
   background-color: #f5f5f5;
   color: #130400
 }
 
-.btn{
+.btn {
   width: 100%;
   font-size: 1.5em;
   text-align: left;
@@ -139,20 +139,20 @@ img{
   border-radius: 10px;
 }
 
-.btn-sobre{
+.btn-sobre {
   background-color: #130400;
   color: #f5f5f5;
   margin-top: 2%;
 }
 
 /*SERVIÇOS*/
-.servicos{
+.servicos {
   width: 100%;
   float: left;
   padding: 3% 4%;
 }
 
-.servico{
+.servico {
   width: 100%;
   background-color: #fff;
   text-align: left;
@@ -160,34 +160,34 @@ img{
   margin-bottom: 3%;
 }
 
-.servico img{
+.servico img {
   border-radius: 7px 7px 0 0;
 }
 
-.inner{
+.inner {
   padding: 7%;
 }
 
-.inner a{
+.inner a {
   font-size: 1.5em;
   color: #130400;
   font-weight: 700;
 }
 
-.inner h4{
+.inner h4 {
   font-size: 1.2em;
   margin-top: 2%;
   color: #130400;
 }
 
-.inner p{
+.inner p {
   margin-top: 6%;
   color: #130400;
   line-height: 1.5em;
 }
 
- /*newsletter*/
-.newsletter{
+/*newsletter*/
+.newsletter {
   width: 100%;
   float: left;
   text-align: center;
@@ -195,21 +195,21 @@ img{
   background-color: #130400;
 }
 
-.newsletter h2{
+.newsletter h2 {
   font-size: 1.5em;
   color: #fff;
   font-weight: 700;
 }
 
-.newsletter h3{
+.newsletter h3 {
   color: #fff;
 }
 
-.newsletter form{
+.newsletter form {
   margin-top: 2%;
 }
 
-.newsletter input{
+.newsletter input {
   width: 89%;
   background-color: #130400;
   color: #fff;
@@ -218,7 +218,7 @@ img{
   padding: 5%;
 }
 
-.newsletter button{
+.newsletter button {
   width: 100%;
   background-color: #fff;
   padding: 5%;
@@ -229,7 +229,7 @@ img{
 }
 
 /*RODAPÉ*/
-.rodape{
+.rodape {
   width: 100%;
   float: left;
   padding: 3% 4%;
@@ -237,21 +237,21 @@ img{
   background: linear-gradient(to right, #ce2e3c, #da6709);
 }
 
-.social-icons a{
+.social-icons a {
   font-size: 1.5em;
   color: rgba(255, 255, 255, 0.7);
   margin-left: 2%;
 }
 
-.social-icons:last-child{
+.social-icons:last-child {
   margin-right: 0;
 }
 
-.social-icons a:hover{
+.social-icons a:hover {
   color: rgba(255, 255, 255);
 }
 
-.copyright{
+.copyright {
   margin-top: 2%;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -268,48 +268,48 @@ Eele serve para direcionar um bloco css para um determinado tipo de acesso
 /*media type e uma expressão*/
 /*==========MOBILE FIRST===========*/
 /*small devices SMART PHONES*/
-@media screen and (min-width: 480px){
-  .logo{
+@media screen and (min-width: 480px) {
+  .logo {
     width: 214px;
     background: url(../img/logo.png) center center/214px no-repeat;
   }
 
-  .btn{
+  .btn {
     font-size: 2em;
   }
 
 }
 
 /*medium devices tablets*/
-@media screen and (min-width: 768px){
- 
-  .servico{
+@media screen and (min-width: 768px) {
+
+  .servico {
     width: 49%;
     float: left;
     margin-right: 2%;
   }
 
   /*aplica o css a um determinado elemento,nesse caso o 2*/
-  .servico:nth-child(2){
+  .servico:nth-child(2) {
     margin-right: 0;
   }
 
-  .newsletter h2{
+  .newsletter h2 {
     font-size: 2em;
   }
 
-  .newsletter h3{
+  .newsletter h3 {
     font-size: 1.5em;
   }
 
-  .newsletter input{
+  .newsletter input {
     width: 68%;
     padding: 2%;
     float: left;
     margin-right: 1%;
   }
 
-  .newsletter button{
+  .newsletter button {
     width: 25%;
     padding: 2%;
     float: right;
@@ -318,23 +318,23 @@ Eele serve para direcionar um bloco css para um determinado tipo de acesso
 }
 
 /* medium devices tablets & descktops*/
-@media screen and (min-width: 960px){
- 
-  .title{
+@media screen and (min-width: 960px) {
+
+  .title {
     width: 70%;
     float: left;
     text-align: left;
   }
 
-  .title h2{
+  .title h2 {
     font-size: 3em;
   }
 
-  .title h3{
+  .title h3 {
     font-size: 2em;
   }
 
-  .buttons{
+  .buttons {
     width: 30%;
     margin-top: 0;
     float: right;
@@ -342,26 +342,69 @@ Eele serve para direcionar um bloco css para um determinado tipo de acesso
 
   /*exibir os 3 serviços*/
 
-  .servico{
+  .servico {
     width: 32%;
   }
 
-  .servico:nth-child(2){
+  .servico:nth-child(2) {
     margin-right: 2%;
   }
 
-  .servico:nth-child(3){
+  .servico:nth-child(3) {
     margin-right: 0;
   }
 
-  .newsletter input{
+  .newsletter input {
     width: 60%;
     float: none;
   }
 
-  .newsletter button{
+  .newsletter button {
     width: 20%;
     float: none;
   }
+
+}
+
+/* large devices wide screens*/
+@media screen and (min-width: 1280px) {
+
+  /*tirando o botao de menu e colocando ele evidente na nav*/
+  .btn-menu {
+    display: none;
+  }
+
+  .btn-close {
+    display: none;
+  }
+
+  .menu {
+    width: auto;
+    height: 56px;
+    line-height: 56px;
+    float: right;
+    background-color: #f5f5f5;
+    display: block !important;
+    position: static;
+  }
+
+  .menu li {
+    padding: 0;
+    float: left;
+  }
+
+  .menu li a {
+    color: #130400;
+    font-size: 1em;
+    padding: 15px;
+  }
+
+  .menu li a:hover{
+    border: none;
+    color: #da6709;
+  }
+
+
+
 
 }
