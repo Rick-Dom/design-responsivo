@@ -267,7 +267,7 @@ Eele serve para direcionar um bloco css para um determinado tipo de acesso
 
 /*media type e uma expressão*/
 /*==========MOBILE FIRST===========*/
-/*SMART PHONES*/
+/*small devices SMART PHONES*/
 @media screen and (min-width: 480px){
   .logo{
     width: 214px;
@@ -276,6 +276,92 @@ Eele serve para direcionar um bloco css para um determinado tipo de acesso
 
   .btn{
     font-size: 2em;
+  }
+
+}
+
+/*medium devices tablets*/
+@media screen and (min-width: 768px){
+ 
+  .servico{
+    width: 49%;
+    float: left;
+    margin-right: 2%;
+  }
+
+  /*aplica o css a um determinado elemento,nesse caso o 2*/
+  .servico:nth-child(2){
+    margin-right: 0;
+  }
+
+  .newsletter h2{
+    font-size: 2em;
+  }
+
+  .newsletter h3{
+    font-size: 1.5em;
+  }
+
+  .newsletter input{
+    width: 68%;
+    padding: 2%;
+    float: left;
+    margin-right: 1%;
+  }
+
+  .newsletter button{
+    width: 25%;
+    padding: 2%;
+    float: right;
+    margin-top: 0;
+  }
+}
+
+/* medium devices tablets & descktops*/
+@media screen and (min-width: 960px){
+ 
+  .title{
+    width: 70%;
+    float: left;
+    text-align: left;
+  }
+
+  .title h2{
+    font-size: 3em;
+  }
+
+  .title h3{
+    font-size: 2em;
+  }
+
+  .buttons{
+    width: 30%;
+    margin-top: 0;
+    float: right;
+  }
+
+  /*exibir os 3 serviços*/
+
+  .servico{
+    width: 32%;
+  }
+
+  .servico:nth-child(2){
+    margin-right: 2%;
+  }
+
+  .servico:nth-child(3){
+    margin-right: 0;
+  }
+
+  .newsletter input{
+    width: 60%;
+    float: none;
+  }
+
+  .newsletter button{
+    width: 20%;
+    float: none;
   }
 
 }
